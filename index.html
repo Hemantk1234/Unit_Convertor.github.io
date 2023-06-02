@@ -1,18 +1,25 @@
 <!-- Created by Hemant Kumbhalkar -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit converter</title>
+    <!-- Logo link -->
+    <link rel="icon" href="./img/Logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
+
 <body>
     <div id="a" class="rite">
         <nav>
             <header>
-                <h1>UNIT CONVERTER</h1>
+                <div class="logo-heading">
+                    <img class="logo-img" src="./img/Logo.jpg" alt="Logo">
+                    <h1>Unit Converter</h1>
+                </div>
             </header>
             <ul class="links2">
                 <li><a href="#">Mass</a></li>
@@ -31,7 +38,7 @@
         </main>
         <br />
         <br />
-        <div class="all">
+        <div id="selt" class="all">
             <div class="len">
                 <h2>Length</h2>
             </div>
@@ -59,8 +66,8 @@
             </select>
             <br>
             <br />
-            <input title="number" type="number" class="NaN" onKeyup="num2()" id="so">
-            <input title="number" type="number" class="CaC" onKeyup="" id="os" readonly>
+            <input title="Enter the number" type="number" class="NaN" onKeyup="num2()" id="so">
+            <input title="Enter the number" type="number" class="CaC" onKeyup="" id="os" readonly>
             <br />
             <br />
             <p id="pl"></p>
@@ -68,7 +75,7 @@
     </div>
 
     <!-- Area -->
-    
+
     <div id="b" class="rite">
         <nav>
             <header>
@@ -90,10 +97,10 @@
         <main class="container3">
         </main>
     </div>
-   
+
 
     <!-- area -->
-    
+
     <div id="c" class="rite">
         <nav>
             <header>
@@ -115,7 +122,7 @@
         <main class="container4">
         </main>
     </div>
-   
+
 
     <!-- time -->
     <div id="main">
@@ -162,8 +169,8 @@
                 </select>
                 <br>
                 <br />
-                <input title="number" type="number" class="NaN" id="nu" onKeyup="num()">
-                <input title="number" type="number" class="CaC" id="un" onKeyup="mun()" readonly>
+                <input title="Enter the number" type="number" class="NaN" id="nu" onKeyup="num()">
+                <input title="Enter the number" type="number" class="CaC" id="un" onKeyup="mun()" readonly>
                 <br>
                 <br>
                 <div id="pss">
@@ -173,4 +180,5 @@
         </div>
     </div>
 </body>
+
 </html>
