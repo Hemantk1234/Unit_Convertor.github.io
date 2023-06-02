@@ -1,0 +1,176 @@
+<!-- Created by Hemant Kumbhalkar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <div id="a" class="rite">
+        <nav>
+            <header>
+                <h1>UNIT CONVERTER</h1>
+            </header>
+            <ul class="links2">
+                <li><a href="#">Mass</a></li>
+                <li><a href="#a">Length</a></li>
+                <li><a href="#b">Area</a></li>
+                <li><a href="#c">Time</a></li>
+                <li><a onclick="go()">🌓Mode</a></li>
+            </ul>
+            <div class="menu2">
+                <div class="first2"></div>
+                <div class="second2"></div>
+                <div class="third2"></div>
+            </div>
+        </nav>
+        <main class="container2">
+        </main>
+        <br />
+        <br />
+        <div class="all">
+            <div class="len">
+                <h2>Length</h2>
+            </div>
+            <br />
+            <br />
+            <select title="select" class="r" id="op1" onChange="coe()">
+                <option value="me">Meter</option>
+                <option value="klm">Kilometre</option>
+                <option value="cen">Centimeter</option>
+                <option value="ml">Mile</option>
+                <option value="mlm">Millimetre</option>
+                <option value="mcm">Micrometre</option>
+                <option value="fo">Foot</option>
+                <option value="inc">Inch</option>
+            </select>
+            <select title="select" class="ro" id="op2" onChange="coe()">
+                <option value="cen">Centimeter</option>
+                <option value="me">Meter</option>
+                <option value="klm">kilometre</option>
+                <option value="ml">Mile</option>
+                <option value="mlm">Millimetre</option>
+                <option value="mcm">Micrometre</option>
+                <option value="fo">Foot</option>
+                <option value="inc">Inch</option>
+            </select>
+            <br>
+            <br />
+            <input title="number" type="number" class="NaN" onKeyup="num2()" id="so">
+            <input title="number" type="number" class="CaC" onKeyup="" id="os" readonly>
+            <br />
+            <br />
+            <p id="pl"></p>
+        </div>
+    </div>
+
+    <!-- Area -->
+    
+    <div id="b" class="rite">
+        <nav>
+            <header>
+                <h1>UNIT CONVERTER</h1>
+            </header>
+            <ul class="links3">
+                <li><a href="#a">Length</a></li>
+                <li><a href="#">Mass</a></li>
+                <li><a href="#b">Area</a></li>
+                <li><a href="#c">Time</a></li>
+                <li><a onclick="go()">🌓Mode</a></li>
+            </ul>
+            <div class="menu3">
+                <div class="first3"></div>
+                <div class="second3"></div>
+                <div class="third3"></div>
+            </div>
+        </nav>
+        <main class="container3">
+        </main>
+    </div>
+   
+
+    <!-- area -->
+    
+    <div id="c" class="rite">
+        <nav>
+            <header>
+                <h1>UNIT CONVERTER</h1>
+            </header>
+            <ul class="links4">
+                <li><a href="#c">Time</a></li>
+                <li><a href="#">Mass</a></li>
+                <li><a href="#a">Length</a></li>
+                <li><a href="#b">Area</a></li>
+                <li><a onclick="go()">🌓Mode</a></li>
+            </ul>
+            <div class="menu4">
+                <div class="first4"></div>
+                <div class="second4"></div>
+                <div class="third4"></div>
+            </div>
+        </nav>
+        <main class="container4">
+        </main>
+    </div>
+   
+
+    <!-- time -->
+    <div id="main">
+        <nav>
+            <header>
+                <h1 id="yep">Unit Converter</h1>
+            </header>
+            <ul class="links">
+                <li><a href="#">Mass</a></li>
+                <li><a href="#a">Length</a></li>
+                <li><a href="#b">Area</a></li>
+                <li><a href="#c">Time</a></li>
+                <li><a onClick="go()">🌓 Mode</a></li>
+            </ul>
+            <div class="menu">
+                <div class="first"></div>
+                <div class="second"></div>
+                <div class="third"></div>
+            </div>
+        </nav>
+        <main class="container">
+        </main>
+        <script src="script.js"></script>
+        <br>
+        <br />
+        <div id="border">
+            <div id="nope">
+                <h2>Mass</h2>
+            </div>
+            <br>
+            <br />
+            <div id="selt">
+                <select title="select" class="rog" id="se" onChange="go2()">
+                    <option value="kg">Killogram</option>
+                    <option value="gm">Gram</option>
+                    <option value="mlg">Milligram</option>
+                    <option value="mcg">Microgram</option>
+                </select>
+                <select title="select" class="rg" onChange="go2()" id="se2">
+                    <option value="gm">Gram</option>
+                    <option value="kg">Killogram</option>
+                    <option value="mlg">Milligram</option>
+                    <option value="mcg">Microgram</option>
+                </select>
+                <br>
+                <br />
+                <input title="number" type="number" class="NaN" id="nu" onKeyup="num()">
+                <input title="number" type="number" class="CaC" id="un" onKeyup="mun()" readonly>
+                <br>
+                <br>
+                <div id="pss">
+                    <p id="power"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
